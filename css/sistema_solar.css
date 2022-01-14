@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0e0208;
+}
+
+header{
+	background-color: #000000;
+	padding: 15px 15px 0px;
+	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+}
+
+a{
+	font-family: 'Gemunu Libre', sans-serif;
+	text-decoration-line: none;
+	color: #FC0378;
+	margin-right: 20px;
+}
+
+a:hover {
+  color: #be31ef;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.icono{
+	font-size: 23px;
+	margin-right: 904px;
+    margin-left: 40px;
+}
+
+.sistema_solar{
+  color: #f176de;
+  font-weight: bold;
+}
+
+main{
+	display: grid;
+  	justify-content: center;
+  	padding-top: 16px;
+}
+
+table{
+	margin: 23px 20px;
+    border-spacing: 20px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+tr{
+	background-color: #a40c4c;
+    color: #000000;
+    border: 2px solid;
+    font-family: 'Viga', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.titulo1{
+	font-weight: bold;
+	color: #dad24d;
+	background-color: #2b1d1d;
+}
+
+.titulo2{
+	font-weight: bold;
+	color: coral;
+	background-color: #121211;
+}
+
+td{
+	padding: 24px;
+}
+
+article{
+	font-family: 'Viga', sans-serif;
+	color: coral;
+    display: flex;
+    flex-direction: column;
+    width: 691px;
+    background-color: #050c08;
+    margin: auto;
+    padding-bottom: 18px;
+}
+
+h2{
+	text-align: center;
+	text-decoration-line: underline;
+	color: #f0e68c;
+}
+
+article li ul i{
+	color: #f0e68c;
+}
+
+p{
+	margin: 0px 46px 0px;
+}
+
+li{
+	display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+footer{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 42px;
+  	font-size: 1.1em;
+  	margin-top: 9px;
+}
+
+footer a{
+	font-family: 'Gemunu Libre', sans-serif;
+	display: flex;
+   	align-items: center;
+   	justify-content: center;
+   	margin-right: 29px;
+  	margin-left: 26px;
+  	color: #000000;
+  	text-decoration: none;
+  	background-color: #8e489a;
+  	width: 80px;
+  	height: 18px;
+  	border-bottom: 7px solid;
+}
+
+footer a:hover {
+  	color: #FFFFFF;
+  	background-color: #030325f5;
+  	cursor: pointer;
+  	border-color: 1px solid black;
+}

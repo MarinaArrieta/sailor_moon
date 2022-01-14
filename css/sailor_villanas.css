@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0f0215;
+}
+
+header{
+	background-color: #000000;
+	padding: 15px 15px 0px;
+	display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+a{
+	font-family: 'Gemunu Libre', sans-serif;
+	text-decoration-line: none;
+	color: #FC0378;
+	margin-right: 20px;
+}
+
+a:hover {
+  color: #be31ef;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.icono{
+	font-size: 23px;
+	margin-right: 904px;
+  margin-left: 40px;
+}
+
+.villanas{
+  color: #f176de;
+  font-weight: bold;
+}
+
+main{
+	display: grid;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+img{
+	height: 205px;
+	margin: auto;
+	border-radius: 47px;
+}
+
+article{
+	margin-top: 30px;
+	width: 500px;
+	border: 1px #9c27b0 solid;
+  border-radius: 23px;
+  box-shadow: 0px 1px 17px #6f27b0;
+  background-color: #080404;
+}
+
+h1{
+	font-family: 'Birthstone Bounce', cursive;
+	font-size: 3.5em;
+  margin-top: 19px;
+  color: #000000;
+  text-align: center;
+  text-shadow: 0px 0px 11px #9e49f1;
+}
+
+p{
+	font-family: 'Caveat Brush', cursive;
+	color: #00c9d4bf;
+	text-align: justify;
+	font-size: 1.6em;
+	margin: 15px;
+}
+
+strong{
+	color: #e00f6eed;
+}
+
+footer{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  font-size: 1.1em;
+  margin-top: 48px;
+}
+
+footer a{
+	font-family: 'Gemunu Libre', sans-serif;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 29px;
+  margin-left: 26px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #673ab7;
+  width: 80px;
+  height: 18px;
+  border-bottom: 7px solid;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+  background-color: #030325f5;
+  cursor: pointer;
+  border-color: 1px solid black;
+}
