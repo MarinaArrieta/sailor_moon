@@ -9,18 +9,19 @@ body{
 }
 
 header{
+  width: 100%;
   background-color: #000000;
-  padding: 15px 15px 0px;
-  display: flex;
+  padding: 15px 0px;
+	display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 a{
   font-family: 'Gemunu Libre', sans-serif;
   text-decoration-line: none;
   color: #FC0378;
-  margin-right: 20px;
+  font-size: 0.8em;
 }
 
 a:hover {
@@ -30,9 +31,7 @@ a:hover {
 }
 
 .icono{
-  font-size: 23px;
-  margin-right: 904px;
-  margin-left: 40px;
+	font-size: 20px;
 }
 
 .heroinas{
@@ -47,13 +46,13 @@ main{
 }
 
 img{
-  height: 205px;
+  height: 138px;
   margin: auto;
 }
 
 article{
-  margin-top: 30px;
-  width: 500px;
+  margin: auto;
+	width: 90%;
   border: 1px #1909ef solid;
   border-radius: 23px;
   box-shadow: 0px 1px 17px #49e5ec;
@@ -62,8 +61,8 @@ article{
 
 h1{
   font-family: 'Birthstone Bounce', cursive;
-  font-size: 4em;
-  margin: 0;
+  font-size: 3.5em;
+  margin-bottom: 40px;
   color: #08de86;
   text-align: center;
   text-shadow: 1px 2px 14px #000000;
@@ -73,8 +72,8 @@ p{
   font-family: 'Caveat Brush', cursive;
   color: #00c9d4bf;
   text-align: justify;
-  font-size: 1.6em;
-  margin: 15px;
+	font-size: 1.2em;
+	margin: 15px;
 }
 
 strong{
@@ -82,25 +81,22 @@ strong{
 }
 
 footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+	display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
   height: 42px;
-  font-size: 1.1em;
-  margin-top: 48px;
+  font-size: 1.3em;
+  margin-top: 75px;
 }
 
 footer a{
   font-family: 'Gemunu Libre', sans-serif;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: 29px;
-  margin-left: 26px;
   color: #000000;
   text-decoration: none;
   background-color: #12c166;
-  width: 80px;
   height: 18px;
   border-bottom: 7px solid;
 }
@@ -110,4 +106,44 @@ footer a:hover {
   background-color: #030325f5;
   cursor: pointer;
   border-color: 1px solid black;
+}
+
+/* Views Tablet */
+@media(min-width: 768px) {
+
+  a{
+    font-size: 1em;
+  }
+
+  img{
+    height: 170px;
+  }
+}
+
+/* Views Laptop - L*/
+@media(min-width: 1440px) {
+
+  img{
+    margin-top: 45px;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+
+  article{
+    width: 30%;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
+  footer{
+    width: 30%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 111px;
+  }
+
 }
