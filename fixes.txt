@@ -1,0 +1,8 @@
+Fixes:
+
+- Tamañano responsive: 
+views cellphone - 375, 
+views tablet - 768,
+views laptop - 1024
+
+- Acomodo de cajas con Flex
