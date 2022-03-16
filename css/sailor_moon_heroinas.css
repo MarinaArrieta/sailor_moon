@@ -62,7 +62,7 @@ article{
 
 h1{
 	font-family: 'Birthstone Bounce', cursive;
-  font-size: 2em;
+  font-size: 2.3em;;
   margin-bottom: 40px;
   color: #000000;
   text-align: center;
@@ -73,7 +73,7 @@ p{
 	font-family: 'Caveat Brush', cursive;
 	color: #00c9d4bf;
 	text-align: justify;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin: 15px;
 }
 
@@ -87,7 +87,7 @@ footer{
   justify-content: space-around;
   align-items: flex-end;
   height: 42px;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-top: 48px;
 }
 
@@ -109,16 +109,30 @@ footer a:hover {
   border-color: 1px solid black;
 }
 
+/* Views Tablet */
+@media(min-width: 768px) {
+
+  a{
+    font-size: 1em;
+  }
+}
+
 /* Views Laptop - L*/
 @media(min-width: 1440px) {
 
+  h1{
+    font-size: 2.8em;
+  }
+
   article{
-    width: 60%;
+    width: 40%;
   }
 
   footer{
     width: 60%;
     justify-content: space-evenly;
     margin: auto;
+    margin-top: 48px;
   }
+
 }

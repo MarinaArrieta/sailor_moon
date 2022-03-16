@@ -112,4 +112,8 @@ footer a:hover {
   a {
     font-size: 1em;
   }
+
+  footer{
+    justify-content: space-evenly;
+  }
 }
