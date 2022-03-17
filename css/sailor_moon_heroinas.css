@@ -62,7 +62,7 @@ article{
 
 h1{
 	font-family: 'Birthstone Bounce', cursive;
-  font-size: 2.3em;
+  font-size: 2.5em;
   margin-bottom: 40px;
   color: #000000;
   text-align: center;
@@ -115,13 +115,17 @@ footer a:hover {
   a{
     font-size: 1em;
   }
+
+  h1{
+    font-size: 3em;
+  }
 }
 
 /* Views Laptop - L*/
 @media(min-width: 1440px) {
 
   h1{
-    font-size: 2.8em;
+    font-size: 3.5em;
   }
 
   article{
