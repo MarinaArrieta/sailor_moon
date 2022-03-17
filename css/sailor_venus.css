@@ -9,6 +9,7 @@ body{
 }
 
 header{
+  width: 100%;
 	background-color: #000000;
 	padding: 15px 0px;
 	display: flex;
@@ -93,9 +94,6 @@ footer a{
 	font-family: 'Gemunu Libre', sans-serif;
 	display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: 29px;
-  margin-left: 26px;
   color: #000000;
   text-decoration: none;
   background-color: #d64f04;
